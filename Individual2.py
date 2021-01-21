@@ -11,6 +11,8 @@ if __name__ == '__main__':
         if 'чу' in sentence:
             idex = sentence.find('чу')
             print("Номер буквы, с котрой начинается чу", idex+1)
+            break
         elif 'щу' in sentence:
             idex = sentence.find('щу')
             print("Номер буквы, с котрой начинается щу", idex+1)
+            break
